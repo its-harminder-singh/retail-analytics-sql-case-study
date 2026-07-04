@@ -64,7 +64,3 @@ The project consists of three tables:
 
 ## Author
 Harminder Singh
-
-## Author
-
-**Harminder Singh
