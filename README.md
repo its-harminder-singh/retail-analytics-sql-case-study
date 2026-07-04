@@ -1,4 +1,4 @@
-Retail Analytics SQL Case Study
+#Retail Analytics SQL Case Study
 
 ## Project Overview
 
