@@ -8,6 +8,15 @@ This project demonstrates an end-to-end retail analytics workflow using MySQL. I
 
 A retail company experienced stagnant sales growth and declining customer engagement. The objective of this project is to analyze retail transaction data and answer key business questions that can support better business decisions.
 
+## Objectives
+
+- Clean and prepare retail sales data for analysis.
+- Identify top- and low-performing products.
+- Analyze customer purchasing behavior.
+- Monitor sales trends over time.
+- Segment customers based on purchasing behavior.
+- Generate business insights to support decision-making.
+
 ## Dataset
 
 The project consists of three tables:
@@ -18,22 +27,31 @@ The project consists of three tables:
 
 ## Project Workflow
 
-1. Data Cleaning
-   - Renamed inconsistent column names
-   - Removed duplicate transactions
-   - Fixed incorrect prices
-   - Handled missing locations
+```
+Dataset
+   │
+   ▼
+Data Cleaning
+   │
+   ▼
+Exploratory Data Analysis (EDA)
+   │
+   ▼
+Business Analysis
+   │
+   ▼
+Customer Segmentation
+   │
+   ▼
+Business Insights
 
-2. Exploratory Data Analysis
-   - Total Sales Summary
-   - Product Performance
-   - Customer Purchase Frequency
-   - Category Performance
-   - Sales Trends
-   - Month-over-Month Growth
-   - Customer Segmentation
-   - Repeat Purchases
-   - Loyalty Indicators
+## SQL Scripts
+
+- `01_Data Cleaning.sql`
+- `02_Sales Analysis.sql`
+- `03_Customer Analysis.sql`
+- `04_Trend Analysis.sql`
+- `05_Customer Segmentation.sql`
 
 ## SQL Concepts Used
 
@@ -51,11 +69,10 @@ The project consists of three tables:
 
 ## Key Insights
 
-- Identified top and low-performing products.
-- Analyzed category-wise sales performance.
-- Measured customer purchase frequency.
-- Calculated month-over-month sales growth.
-- Segmented customers based on purchasing behavior.
+- Clothing generated the highest revenue.
+- Most customers belong to the Medium purchase segment.
+- A small number of customers account for high purchase frequency.
+- Sales fluctuate significantly across months.
 
 ## Tools Used
 
