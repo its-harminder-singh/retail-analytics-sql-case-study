@@ -1,4 +1,4 @@
-##Retail Analytics SQL Case Study
+## Retail Analytics SQL Case Study
 
 ## Project Overview
 
@@ -67,4 +67,4 @@ Harminder Singh
 
 ## Author
 
-**Harminder Singh**
+**Harminder Singh
