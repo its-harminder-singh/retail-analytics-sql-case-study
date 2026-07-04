@@ -27,7 +27,6 @@ The project consists of three tables:
 
 ## Project Workflow
 
-```
 Dataset
    │
    ▼
